@@ -30,9 +30,26 @@ toward the larger model before scaling up to the full ~800 image dataset.
 - [ ] Plan the path from small test set -> full 800-image set (what needs to change: compute, storage, labeling effort)
 
 ## 2. Gather context
-- Existing code, docs, or prior attempts related to this work
-- Constraints: deadlines, dependencies, people involved
-- Open questions to resolve before writing code
+
+### Project: Manoomin Detection
+
+**Existing code / docs / prior attempts:** None on our end — starting
+fresh. Other models or methods may exist elsewhere; we'll acknowledge and
+look into those later rather than build on them now.
+
+**Deadlines:**
+- Major deadline: end of 2026 — working plugin
+- Short-term deadline: 2026-07-27 (5 days out) — the small-scale test
+  (10-100 images) and resulting data/analysis from Section 1
+
+### Open questions to resolve
+- [ ] What format/access do we have to the ~800 images on the SSD (file types, folder layout, any existing metadata)?
+- [ ] Are any images already labeled, or does labeling start from zero?
+- [ ] What counts as "wild rice present" in an image — whole plant, partial view, distance/angle constraints?
+- [ ] What hardware/compute is available now vs. what the short-term test needs?
+- [ ] What edge node(s) will eventually run the plugin — what are their compute/OS/runtime constraints? (affects model choice even now)
+- [ ] Who else, if anyone, is involved or needs to review progress before the 2026-07-27 checkpoint?
+- [ ] Are there existing wild rice detection models/papers/methods worth reviewing later (acknowledged now, not pursued yet)?
 
 ## 3. Break down the work
 - List major milestones/phases
