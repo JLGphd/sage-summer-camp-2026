@@ -79,9 +79,24 @@ extra time buffer.
 - [ ] Set up Manoomin-Collective-Project repo (README, initial structure) when short-term test is ready to graduate into it
 
 ## 5. Plan before building
-- Sketch the approach before writing code
-- Get alignment with collaborators/stakeholders on the plan
-- Revisit and adjust as new information comes in
+
+### Project: Manoomin Detection
+
+**Collaborators / stakeholders:**
+- Argonne
+- UIC
+- Northwestern
+- Bad River Band of Lake Superior Chippewa
+- Manoomin Ella Nuemann
+- Dave MacDonald
+
+**How to sketch the approach (before writing code):**
+- [ ] Draw the pipeline as boxes: image in -> preprocessing -> model -> output -> what happens with the output
+- [ ] Name one baseline model on paper to try first for the 10-100 image test (don't sketch multiple options yet — keep coding risk narrow, see Section 3)
+- [ ] Write a one-sentence success metric for the short-term test (e.g. "correctly flags wild rice in X% of the test images")
+- [ ] Sketch the data flow, not just the model flow: where images live during testing, where labels get stored, where results get written
+- [ ] Get alignment with collaborators above on the plan before scaling to the full dataset/long-term repo
+- [ ] Revisit and adjust as new information comes in
 
 ## 6. Track as you go
 - Keep a running log of decisions and why they were made
