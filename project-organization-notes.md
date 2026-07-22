@@ -87,7 +87,8 @@ extra time buffer.
 - UIC
 - Northwestern
 - Bad River Band of Lake Superior Chippewa
-- Manoomin Ella Nuemann
+- Manoomin
+- Ella Nuemann
 - Dave MacDonald
 
 **How to sketch the approach (before writing code):**
