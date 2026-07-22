@@ -52,9 +52,17 @@ look into those later rather than build on them now.
 - [ ] Are there existing wild rice detection models/papers/methods worth reviewing later (acknowledged now, not pursued yet)?
 
 ## 3. Break down the work
-- List major milestones/phases
-- Identify the riskiest or least-understood part — tackle that first
-- Decide what can be parallelized vs. what's sequential
+
+### Project: Manoomin Detection
+
+**Major milestones/phases:** None defined yet — will list as the project
+moves forward.
+
+**Riskiest / least-understood part:** Writing the code itself. User's
+background is environmental engineering (domain science), not computer
+science, so the coding/ML-implementation side is the area with the most
+uncertainty and risk — likely needs the most learning support, review, and
+extra time buffer.
 
 ## 4. Set up the environment
 - Repo created, remote linked, README started
