@@ -87,8 +87,10 @@ extra time buffer.
 - UIC
 - Northwestern
 - Bad River Band of Lake Superior Chippewa
-- Manoomin Ella Nuemann
-- Dave MacDonald
+- Manoomin
+- Jordan G.
+- Ella N.
+- Dave M.
 
 **How to sketch the approach (before writing code):**
 - [ ] Draw the pipeline as boxes: image in -> preprocessing -> model -> output -> what happens with the output
