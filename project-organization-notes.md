@@ -65,9 +65,18 @@ uncertainty and risk — likely needs the most learning support, review, and
 extra time buffer.
 
 ## 4. Set up the environment
-- Repo created, remote linked, README started
-- Branching/commit conventions agreed on
-- Tooling installed (linters, test runners, CI if needed)
+
+### Project: Manoomin Detection
+
+**Repos:**
+- Short-term (10-100 image test): this repo — `sage-summer-camp-2026`
+- Long-term (full project/plugin): a separate, brand-new repo —
+  https://github.com/JLGphd/Manoomin-Collective-Project — currently empty,
+  needs to be built from scratch (README, structure, etc.)
+
+- [ ] Branching/commit conventions agreed on
+- [ ] Tooling installed (linters, test runners, CI if needed)
+- [ ] Set up Manoomin-Collective-Project repo (README, initial structure) when short-term test is ready to graduate into it
 
 ## 5. Plan before building
 - Sketch the approach before writing code
