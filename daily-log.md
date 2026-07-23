@@ -16,3 +16,12 @@
 - Merged that auth fix with the original goals: 6 target survey dates (2025-05-20, 06-05, 06-17, 07-01, 07-30, 08-07), each windowed 08:00-20:00, downloaded into per-date folders on the SSD, with running downloaded/failed totals.
 - Added a .gitignore (`.env`) so SAGE credentials never get committed — data_pull.py reads them from a local .env or exported env vars.
 - Next: run data_pull.py locally with real SAGE_USER/SAGE_TOKEN, confirm images land correctly in per-date SSD folders, then build the actual organize_photos.py mover for the existing (non-SAGE) photo dump.
+
+## End of session
+- Ran data_pull.py with real SAGE credentials — all 6 date folders now exist under /Volumes/SSK SSD/sage_images (2025-05-20, 06-05, 06-17, 07-01, 07-30, 08-07).
+- Both repos committed and pushed. sage-summer-camp-2026 needed a merge first — a collaborator had updated project-organization-notes.md there (team member name split) via PR #1; merged cleanly, no conflicts.
+- Picking up tomorrow:
+  1. Check data_pull.py's downloaded/failed counts per date folder — confirm nothing silently failed.
+  2. Spot-check a few downloaded JPEGs open correctly.
+  3. Build out organize_photos.py: parse the YYYYMMDD date from each of the three filename patterns (IMG_, PXL_, NO_PREFIX) in the original ~890-image SSD dump and move/copy into YYYY/MM folders.
+  4. After that, revisit zero-shot classification test on dormancy images.
